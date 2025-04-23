@@ -1,0 +1,86 @@
+/* add.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.add {
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1 .item1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content1 .btn1 {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.item1 .span {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.item2 {
+    margin-left: 30px;
+    flex-grow: 1;
+}
+
+.add-img {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+
+.icon-up {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-up img {
+    width: 36px;
+    height: 36px;
+}
+
+.text {
+    display: block;
+    margin-top: 10px;
+}
+
+.text1 {
+    color: #e56c00;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 13px;
+    color: #888;
+}
